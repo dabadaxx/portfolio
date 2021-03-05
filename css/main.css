@@ -1,0 +1,81 @@
+Header
+.header{
+    position: relative;
+    height: 130px;
+    margin-top: 0;
+    
+}
+.header__navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header__navbar-list{
+    list-style: none;
+    padding-left: 0;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.header__narbar-menu, 
+.header__narbar-menu-link{
+            
+    color: var(--white-color);
+    display: inline-block;
+    justify-content: space-around;
+    margin: 0 25px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+            
+}
+        
+.header__narbar-menu:hover, 
+.header__narbar-menu-link:hover{
+    cursor: pointer;
+    font: weight 1.2;;
+           
+}
+.header__narbar-menu-link:hover{
+  cursor: pointer;
+  color: var( --link-color) !important;
+  font: weight 1.2;;
+         
+}
+        
+/* fOR loGO */
+
+.sidebar-personal-info-section {
+    position: relative;
+  }
+  
+.role-change{
+    font-weight: 500;
+    font-size: 50px;
+    opacity: 1;
+    position: absolute;
+    padding-left: .2rem;
+    display: inline-block;
+    justify-content: space-between;
+   
+  }
+  
+  .shown {
+    opacity: 1;
+    visibility: visible;
+    color:red;
+    display: inline-block;
+    justify-content: space-between;
+  }
+  .shown.hover {
+    opacity: 1;
+    visibility: visible;
+    color: turquoise;
+  }
+
+
+/* Body Part */
+
+.body-page{
+    padding: 100px;
+    border: turquoise;
+}
